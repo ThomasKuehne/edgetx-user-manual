@@ -114,7 +114,7 @@ The widget assumes the following: the model has a motor, the motor is activated 
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/widgets8 (1).jpg" alt=""><figcaption><p>Ghost widget in RF and Video Mode</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/widgets8 (2).jpg" alt=""><figcaption><p>Ghost widget in RF and Video Mode</p></figcaption></figure>
 
  
 

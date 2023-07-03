@@ -195,6 +195,6 @@ Below are the possibile configuration options:
 * **Slave / Bluetooth** - Slave mode using a Bluetooth connection (if installed in radio).
 * **Master / Multi** - Master mode using an additional externally mounted Multi-protocol module for the connection. For more information on this setup, see&#x20;
 
-[set-up-wireless-trainer-with-mpm.md](../../set-up-wireless-trainer-with-mpm.md "mention")see [set-up-wireless-trainer-with-mpm.md](../../set-up-wireless-trainer-with-mpm.md "mention")
+[set-up-wireless-trainer-with-mpm.md](../../edgetx-how-to/set-up-wireless-trainer-with-mpm.md "mention")see [set-up-wireless-trainer-with-mpm.md](../../edgetx-how-to/set-up-wireless-trainer-with-mpm.md "mention")
 
 Pressing the **\[PAGE>]** button will take you to the **Heli Setup** screen.
