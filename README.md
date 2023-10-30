@@ -25,3 +25,5 @@ This section of the knowledge base will contain links to additional resources th
 ### Special thanks to those that contributed to this knowledge base either directly or indirectly.
 
 See the [Contributors ](more/contributors.md)section for a list of direct and indirect contributors.
+
+#### EdgeTX User Manual © 2022 by EdgeTX is licensed under CC BY-SA 4.0 
