@@ -26,4 +26,4 @@ This section of the knowledge base will contain links to additional resources th
 
 See the [Contributors ](more/contributors.md)section for a list of direct and indirect contributors.
 
-#### EdgeTX User Manual © 2022 by EdgeTX is licensed under CC BY-SA 4.0 
+#### [EdgeTX User Manual](https://edgetx.gitbook.io/edgetx-user-manual/) © 2022 by EdgeTX is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) 
