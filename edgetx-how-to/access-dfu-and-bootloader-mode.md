@@ -108,6 +108,12 @@ Note: To access the DFU button on v1, remove the antenna. For v2, use a toothpic
 
 **DFU**: Turn off the radio transmitter. Plug in the USB cable to the USB port on the top of the radio.
 
+### RadioMaster GX12
+
+**Bootloader**: Turn off the radio transmitter. Pull both horizontal trim switches together and press the power button.
+
+**DFU**: Turn off the radio transmitter. Plug in the USB cable to the USB port on the top of the radio (power button LED should light up). Hold down/activate switch SG and then press and release the power button (only needs a momentary press). You can release/deactivate SG now.&#x20;
+
 ### RadioMaster (All others - Boxer, T12, Zorro, TX16S)
 
 **Bootloader**: Turn off the radio transmitter. Pull both horizontal trim switches together and press the power button.
