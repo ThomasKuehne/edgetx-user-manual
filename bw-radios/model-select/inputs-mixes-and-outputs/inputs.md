@@ -39,16 +39,16 @@ The input configuration page allows you to edit the input configuration paramete
 
 **Line Name** - Name of the individual line in the input. Multiple physical inputs can be mapped to one input by adding an additional input line under the input.
 
-**Source** - The physical control used for the input. In addition to physical controls, you can also specify MAX (always returns 100), MIN (always returns -100), cyclics, trim switches, channel values and more. Moving the physical control after the source has been selected will automatically map it to that input.
+**Source** - The physical control used for the input. In addition to physical controls, you can also specify MAX (always returns 100), MIN (always returns -100), cyclic, trim switches, channel values, global variables and more. Moving the physical control after the source has been selected will automatically map it to that input. Long press **\[Enter]** to bring up the list of available source categories.&#x20;
 
-**Weight** - Percentage value of the stick travel to use (often referred to as "rates"). Long-pressing here will switch from numerical value to a global variable.
+**Weight** - Percentage value of the stick travel to use (often referred to as "rates"). You can also long press **\[Enter]** to bring up a menu that will let you change this to be based on another input, axis, pot, MAX (always returns 100), MIN (always returns -100), cyclic, trim switches, channel values, global variables and more.&#x20;
 
-**Offset** - The value added to or subtracted from the input source.
+**Offset** - The value added to or subtracted from the input source. You can also long press **\[Enter]** to bring up a menu that will let you change this to be based on another input, axis, pot, MAX (always returns 100), MIN (always returns -100), cyclic, trim switches, channel values, global variables and more.&#x20;
 
 **Curve** - Specifies the type of curve that will be used. The following curve options exist:
 
-* **Diff** - Multiplies only the range above or below the middle (0) by the specified %.
-* **Expo** -The input value is changed exponentially. Increasing the % will result in a gentle slope near the middle(0). Decreasing the % will result in a steep slope near the middle (0). With a % of 0, the slope will be linear.
+* **Diff** - Multiplies only the range above or below the middle (0) by the specified %. Long press **\[Enter]** to select the value to be sourced from another input, axis GV, etc.&#x20;
+* **Expo** -The input value is changed exponentially. Increasing the % will result in a gentle slope near the middle(0). Decreasing the % will result in a steep slope near the middle (0). With a % of 0, the slope will be linear. Long press **\[Enter]** to select the value to be sourced from another input, axis GV, etc.&#x20;
 *   **Func** -
 
     <table><thead><tr><th width="116">Function</th><th width="575">Slope Behavior</th></tr></thead><tbody><tr><td>---</td><td>The slope will be linear.</td></tr><tr><td>X>0</td><td>The range below the middle (0) is always 0. Above the middle (0), the slope is linear.</td></tr><tr><td>X&#x3C;0</td><td>The range above the middle (0) is always 0. Below the middle (0), the slope is linear.</td></tr><tr><td>|X|</td><td>The range above the middle (0), the reaction is linear. The sign is inverted in the range below the middle (0). The curve draws a V-shaped graph.</td></tr><tr><td>f>0</td><td>The range above the middle (0) is always +100. The range below the middle (0) is always 0. The output value will always be either 0 or +100.</td></tr><tr><td>f&#x3C;0</td><td>The range above the middle (0) is always 0. The range below the middle (0) is always -100. The output value will always be either 0 or -100.</td></tr><tr><td>|f|</td><td>The range above the middle (0) is always +100. The range below the middle (0) is always -100. The output value will always be either +100 or -100.</td></tr></tbody></table>

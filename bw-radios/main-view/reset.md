@@ -2,7 +2,7 @@
 
 Selecting **Reset** from the pop-up menu will give you the following options:
 
-**Reset flight** - When selected, this option:&#x20;
+**Reset session** - When selected, this option:&#x20;
 
 * Resets all timers configured with a persistence setting of **Flight** to zero.
 * Resets all discovered telemetry sensor values.

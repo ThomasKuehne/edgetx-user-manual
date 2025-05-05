@@ -1,6 +1,6 @@
 # Flight Modes
 
-<figure><img src="../../.gitbook/assets/FM1.png" alt=""><figcaption><p>Flight Modes page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/color_model_fm.png" alt=""><figcaption><p>Flight Modes page</p></figcaption></figure>
 
 Flight modes allow you to have different trim settings for each flight mode. Once multiple flight modes are configured, you can adjust the trim settings in each flight mode without affecting the trim settings in other flight modes (unless they are configured to do so). There are 9 possible flight modes to use, with Flight Mode 0 being the default flight mode.
 
@@ -8,13 +8,13 @@ The **Flight Mode** screen displays an overview of each flight mode. The highlig
 
 **Check FM Trims:** When the check FM trims button is pressed, the trims for the current flight mode are temporarily disabled. This is used to test the impact of the current flight mode’s trims on the outputs.
 
-<figure><img src="../../.gitbook/assets/FM2.png" alt=""><figcaption><p>Flight Mode configuration page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/color_model_fm_edit.png" alt=""><figcaption><p>Flight Mode configuration page</p></figcaption></figure>
 
 The flight mode conifiguration screen has the following options:
 
 **Name:** The custom name for the flight mode. If configured, this name will be shown on the lower center position of the main screen between the trims.
 
-**Switch:** The trigger to enable that flight mode. It can be a switch, pot, telemetry, trim or logical switch.
+**Switch:** The trigger to enable that flight mode. It can be a switch, pot, telemetry, trim or logical switch. This option is not shown on FM0, as it is always active unless another flight mode is specifically enabled.&#x20;
 
 **Fade in:** Gradually change the trim value when this flight mode is enabled. Specify the time in seconds (0.0 - 25.0) until the value change is completed.
 

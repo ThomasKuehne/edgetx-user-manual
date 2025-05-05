@@ -2,7 +2,7 @@
 
 Global variables are variables whose values are shared across all the configuration screens of a model. Their values can be used in weights, offsets, differential, expo settings, outputs, and in logical switch comparisons.  The **Global Variables** screen of Model Settings shows the value of each global variable for each flight mode.
 
-<figure><img src="../../.gitbook/assets/globalvariables1.png" alt=""><figcaption><p>Global variables screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/color_model_GVs.png" alt=""><figcaption><p>Global variables screen</p></figcaption></figure>
 
 Selecting a global variable from the global variable screen will give you the following options:
 

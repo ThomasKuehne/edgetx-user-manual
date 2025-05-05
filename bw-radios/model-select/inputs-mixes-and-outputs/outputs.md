@@ -18,14 +18,14 @@ Selecting an output line will give you the following options:
 * **Cpy Sticks -> Subtrim** - Adds the current value of the stick deflection as the subtrim value.
 * **Cpy min/max to all -** Copies the settings in Min / Max field of selected channel to all other channels.
 
-<figure><img src="../../../.gitbook/assets/bwoutputs2.png" alt=""><figcaption><p>Outputs Configuration page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bw128_outputs.png" alt=""><figcaption><p>Outputs Configuration page</p></figcaption></figure>
 
 The output configuration screen has the following configuration options:
 
 * **Name** - Name for the Output up to 6 characters.
 * **Subtrim** - The subtrim value (max 100). It can also be set to a global variable by pressing the ldong-pressing the **\[Enter]** button to switch to GV Mode and then selecting the desire global variable.
-* **Min** - Minimum output limit. Commonly used to prevent servo binding on models that use servos for the control surfaces.
-* **Max** - Maximum output limit. Commonly used to prevent servo binding on models that use servos for the control surfaces.
+* **Min** - Minimum output limit. Commonly used to prevent servo binding on models that use servos for the control surfaces. This line will be shown in **bold** if the input for this channel is in the lower half of the range.&#x20;
+* **Max** - Maximum output limit. Commonly used to prevent servo binding on models that use servos for the control surfaces. This line will be shown in **bold** if the input for this channel is in the upper half of the range.&#x20;
 * **Direction**- Select **---** for normal output value, **INV** if you want to invert the output value.
 * **Curve** - Specify the custom curve (in any) that you want to use for this output. See **Curves** for more information about custom-defined curves.
 * **PPM Center** - Specify the pulse-width value for the center value of the output channel (between 1000 - 2000). Changing this will shift the entire output range, including upper and lower limits.

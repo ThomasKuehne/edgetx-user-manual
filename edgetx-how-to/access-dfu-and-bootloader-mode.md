@@ -26,6 +26,12 @@ Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functiona
 
 **DFU**: Turn off the radio transmitter. Press and hold the DFU button and plug in the USB cable, release the DFU button.
 
+### Flysky Noble+ (NB4+)
+
+**Bootloader:** TODO
+
+**DFU:** TODO
+
 ### FlySky PL18 / PL18 EV
 
 
@@ -35,6 +41,15 @@ Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functiona
 **Bootloader**: Turn off the radio transmitter. Pull both horizontal trims (TR7 and TR8) together and press both power buttons.
 
 **DFU**: Turn off the radio transmitter. Press and hold the DFU button and plug in the USB cable, release the DFU button.
+
+### Flysky ST16
+
+**Bootloader:** Turn off the radio transmitter. Pull both horizontal trims (TR3 and TR4) together and press the power button.
+
+**DFU:** Turn off the radio transmitter. Press and hold the DFU button (circled in the image below) and plug in the USB cable, release the DFU button.\
+
+
+<figure><img src="../.gitbook/assets/st16_DFU_button.png" alt=""><figcaption></figcaption></figure>
 
 ### iFlight Commando8
 

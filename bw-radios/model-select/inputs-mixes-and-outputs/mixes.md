@@ -19,7 +19,7 @@ Selecting an existing mix line and long-pressing **\[Enter]** will give you the 
 * **Move** - selects the mix line to be moved.
 * **Delete** - deletes the selected mix line.
 
-<figure><img src="../../../.gitbook/assets/bwmixes2 (3).png" alt=""><figcaption><p>Mixes Configuration Screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bw128_mixes.png" alt=""><figcaption><p>Mixes Configuration Screen</p></figcaption></figure>
 
 ### Mixes Configuration Options
 
@@ -28,15 +28,16 @@ The right portion of the mixes configuration page contains a graph that shows th
 When the **edit** option is selected for a mix, the following configuration options are available:
 
 * **Mix Name** - Name of the mix (optional). Up to 6 characters are allowed.
-* **Source** - The source for the mix. In addition to inputs, you can select sticks, pots, sliders, trims, physical and logical switches, heli mixer outputs, trainer import channel values, and other channels.
-* **Weight**- Percentage of the source value to use. Long-pressing here will switch from numerical value to a global variable.
-* **Offset** - The value added to or subtracted from the source.
+* **Source** - The source for the mix. In addition to inputs, you can select sticks, pots, sliders, trims, physical and logical switches, heli mixer outputs, trainer import channel values, and other channels. Long press **\[Enter]** to bring up the list of available source categories.&#x20;
+* **Weight**- Percentage of the source value to use.  In addition to physical controls, you can also specify MAX (always returns 100), MIN (always returns -100), cyclic, trim switches, channel values, global variables and more. Moving the physical control after the source has been selected will automatically map it to that input. Long press **\[Enter]** to bring up the list of available source categories.
+* **Offset** - The value added to or subtracted from the source.  In addition to physical controls, you can also specify MAX (always returns 100), MIN (always returns -100), cyclic, trim switches, channel values, global variables and more. Moving the physical control after the source has been selected will automatically map it to that input. Long press **\[Enter]** to bring up the list of available source categories.
 * **Trim** - Specifies whether or not to include the trim values in this mix. For the trim values to be included, the trim field for the relevant input must also be enabled on **INPUTS** screen.
 * **Curve** - Specifies the type of curve that will be used. See the **curve** section on the [Inputs](inputs.md) page for detailed explanations of the different curve types.&#x20;
 * **Switch** - The physical switch that activates this mix line (optional). If no switch is selected, then the mix will be active by default.
 * **Warning** -when selected, the radio will beep when this mix is active. You can choose from OFF or beep patterns 1, 2, 3.&#x20;
 * **Multiplex** - The multiplex setting defines how the current mixer line interacts with the others on the same channel. **Add** will add its output to them, **Multiply** will multiply the result of the lines above it, and **Replace** will replace anything that was done before it with its output.&#x20;
 * **Modes** - Specifies which flight modes this mix is active for. Visible modes are active.
+* **Delay prec** (precision) - Changes the precision for Delay up/dn between 0.0 and 0.00.
 * **Delay up** - Creates a time delay in seconds between when the source value increases and when it is output.
 * **Delay down** -  Creates a time delay in seconds between when the source value decreases and when it is output.
 * **Slow prec** (precision) - Changes the precision for Slow up/dn between 0.0 and 0.00.

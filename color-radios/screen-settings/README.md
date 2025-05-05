@@ -12,22 +12,15 @@ The **Screen settings** section of EdgeTX is where you can customize your main v
 * **Trims** - Toggles whether the trim bars will be visible on the selected main view.
 * **Mirror** - Toggles whether to mirror the selected widget layout.
 
-<figure><img src="../../.gitbook/assets/screenssettings2.jpg" alt=""><figcaption><p>User Interface screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/color_screen_user-interface.png" alt=""><figcaption><p>User Interface screen</p></figcaption></figure>
 
 Selecting the user Interface button to the left of the Main view 1 tab will open the user interface configuration screen.  It contains the following options:
 
 * **Top bar Setup Widgets button** - Sets up the widgets that will be displayed on the top bar. See [**Setting up widgets**](./#setting-up-widgets) below for information on how to setup widgets.
+* **Widget Size** - Allows you to configure the width of the widget zones to be shown in the top bar, at the expense of the number of widget zones you can have.
 * **Theme** - Applies the selected theme to EdgeTX. A preview of the theme is below the dropdown. EdgeTX comes with several themes installed. Additional themes to download as well as instructions for creating your own themes can be found here: [https://github.com/EdgeTX/themes](https://github.com/EdgeTX/themes)
 
-<div>
-
-<figure><img src="../../.gitbook/assets/screenssettings3.jpg" alt=""><figcaption><p>Top Bar Widget Setup</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/screenssettings4.jpg" alt=""><figcaption><p>Main View Widget Setup</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/screenssettings3.jpg" alt=""><figcaption><p>Top Bar Widget Setup</p></figcaption></figure> <figure><img src="../../.gitbook/assets/screenssettings4.jpg" alt=""><figcaption><p>Main View Widget Setup</p></figcaption></figure></div>
 
 ### Setting up widgets
 

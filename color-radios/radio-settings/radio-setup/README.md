@@ -1,6 +1,6 @@
 # Radio Setup
 
-<figure><img src="../../../.gitbook/assets/RadioSetup.png" alt=""><figcaption><p>Radio Setup Screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/color_radio_radio-setup.png" alt=""><figcaption><p>Radio Setup Screen</p></figcaption></figure>
 
 The **Radio Setup** screen is where you configure basic settings for your radio. It contains the following options:
 
@@ -14,9 +14,13 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 **Startup Sound** - Toggles whether to enable/disable startup sound.
 
-**Pwr Off delay** - The delay between when the power button is pushed and when the radio shuts off. The options are: **0s, 1s, 2s, 3s, 4**s. _It is recommended to set at least a 1s delay in order to prevent the radio from being shut off in the case of an accidental button press._
+**Pwr Off delay** - The delay between when the power button is pushed and when the radio shuts off. The options are: **0s, 0.5s, 1s, 2s, 3s, 4**s. _It is recommended to set at least a 1s delay in order to prevent the radio from being shut off in the case of an accidental button press._
 
-**Owner ID** - Custom registration ID used only for users with ISRM modules.
+**Power Auto Off** - If enabled, the radio with automatically power off after the configured amount of inactivity, if there is no RF module with active telemetry, or an active trainer connection.&#x20;
+
+**Power ON/OFF Haptic** - When enabled, the radio with use the vibration motor to give a haptic pulse when powering the radio on (indicating when the power button can be released) and when the transmitter is powering off.&#x20;
+
+**Owner ID** - Custom registration ID used only for users with FrSky ISRM/ACCESS modules.
 
 **Country code** - Used by some RF modules to ensure adherence to local regulatory RF requirements. Options are **America, Japan, Europe.**
 
@@ -24,13 +28,13 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 **Units** - Units of measure. Options are **metric** or **imperial**.
 
-**PPM Units** - Level of accuracy for PPM values are displyed. Options are **0.-** or **0.0**
+**PPM Units** - Level of accuracy for PPM values are displyed. Options are **0.-, 0.0 or us** **(μs/microseconds).**
 
 **Play delay** (sw. mid pos) - The minimum time in milliseconds a switch must be in the middle position before a special function will get activated. This is used to prevent the middle position from being activated on a three-position switch when switching from low position to high position.
 
 **USB Mode** - Sets the default action when a USB cable is plugged into the USB data port and the radio is powered on. Options are: **Ask**, **Joystick**, **Storage**, and **Serial**.
 
-**Hats Mode:** how the hat switches will function (_**NV14 & EL18  only**_).
+**Hats Mode:** how the hat switches will function (_**NV14, EL18 and PL18/PL18EV  only**_).
 
 * **Trims** **only**: The Trim hat switches will be used to adjust the trim values only.
 * **Keys only**: The Trim hat switches will be used to navigate the menu options (as described below)

@@ -4,11 +4,7 @@ description: General model settings
 
 # Model Setup
 
-<div align="center">
-
-<figure><img src="../../../.gitbook/assets/modelsetup.png" alt=""><figcaption><p>Model Setup tab under Model Settings</p></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../../../.gitbook/assets/color_model_setup_plane.png" alt=""><figcaption><p>Model Setup tab under Model Settings</p></figcaption></figure></div>
 
 The **model setup** page is the default page for model settings and is where you start to configure your model. It contains the following settings:
 
@@ -32,17 +28,7 @@ To avoid performance issues, the model image size should not exceed 192 x 114 pi
 [https://www.skyraccoon.com/](https://www.skyraccoon.com/) has a large repository of free image files that can be used with EdgeTX.
 {% endhint %}
 
-
-
-#### ADC Filter
-
-Enables/disables the ADC filter for this model. The _**global**_ option will take the value designated in the radio settings, which is _on_ by default.
-
 {% hint style="info" %}
-The ADC filter is a filter for the proportional channels (sticks, pots, sliders), smoothing out smaller fast movements that occur due to noise in the system electronics. Normally, this filter should be _disabled_ for models with flight controllers.
-{% endhint %}
-
-{% hint style="info" %}
-Timers that are enabled will show as highlighted on the Model Setup screen.
+RF Modules, Trainer and Timers that are enabled will show as highlighted on the Model Setup screen.
 {% endhint %}
 

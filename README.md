@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# EdgeTX User Manual v2.11 (Draft)
+# EdgeTX User Manual v2.11
 
 <figure><img src=".gitbook/assets/logos (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -36,4 +36,4 @@ This section of the knowledge base will contain links to additional resources th
 
 See the [Contributors ](more/contributors.md)section for a list of direct and indirect contributors.
 
-#### EdgeTX User Manual © 2024 by EdgeTX is licensed under CC BY-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/
+#### EdgeTX User Manual © 2025 by EdgeTX is licensed under CC BY-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/

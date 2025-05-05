@@ -18,11 +18,11 @@ If your radio has a 6 position switch (not to be confused with customisable swit
 
 ### Inputs, Sticks, Pots, and Switches Buttons List
 
-Selecting one of the Axis, Pots, or Switches lines from the list will allow you to add a 3 character label to the control as well as change the type of control as needed. Additionally, you can invert the direction of the Pots by selecting the **->**
+Selecting one of the Axis, Pots, or Switches lines from the list will allow you to add a 3 character label to the control as well as change the type of control as needed. Additionally, you can invert the direction of the Pots by selecting the **`->`** at the end of the line, which will then change to `<-` .
 
 ### Additional hardware configuration options
 
-<figure><img src="../../.gitbook/assets/bwhardware2.png" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bw128_radio_setup_hardware_bottom.png" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
 
 **Batt. Calib** (Battery Calibration) - Set this value to match the transmitter battery voltage. This ensures that the displayed battery voltage is accurate.
 
@@ -81,7 +81,7 @@ One a mode is selected, you will see the following information:
 The ADC filter is a filter for the proportional channels (sticks, pots, sliders), smoothing out smaller fast movements that occur due to noise in the system electronics. Normally, this filter should be _disabled_ for models with flight controllers.&#x20;
 {% endhint %}
 
-**RAS** - (Formerly SWR) Reflected antenna signal. Lower numbers are better, with a 1:1 ratio being theoretically the best. Not supported by all RF Protocols.
+**Ext. RAS** - (Formerly SWR) Reflected antenna signal. Lower numbers are better, with a 1:1 ratio being theoretically the best. Not supported by all RF Protocols.
 
 ### Debug
 
@@ -89,8 +89,12 @@ The debug section allows for testing and debugging of the analog controls and ke
 
 <div><figure><img src="../../.gitbook/assets/bwhardware3.png" alt=""><figcaption><p>Debug Analogs screen</p></figcaption></figure> <figure><img src="../../.gitbook/assets/bwhardware4.png" alt=""><figcaption><p>Debug Keys screen</p></figcaption></figure></div>
 
+<figure><img src="../../.gitbook/assets/bw128_radio_setup_hardware_debug_cs.png" alt=""><figcaption><p>Debug Customizable Switches</p></figcaption></figure>
+
 **Debug Analogs**  - These screens will show you the data for your analog controls (Sticks, Sliders, Pots, 6-position switch). There are two views - Calibrated Analogs, Raw Analogs (5 Hz).
 
 **Debug Keys** - This screen will show you the digital data for your keys, switches, trims, and the rotary encoder (roller).
+
+**Debug Customisable Switches** (select radios) - This screen will show you the physical and logical state of the customisable switches, as well as the led state or color (if the handset supports RGB customisable switches).&#x20;
 
 Pressing the **\[PAGE>]** button will take you to the **Version** screen.

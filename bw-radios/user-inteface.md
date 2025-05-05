@@ -1,6 +1,8 @@
 # User Inteface
 
-<figure><img src="../.gitbook/assets/bwUserinterface.png" alt=""><figcaption><p>Common buttons user for radio menu navigation </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/bwUserinterface.png" alt="" width="375"><figcaption><p>Common buttons user for radio menu navigation (e.g. RM Zorro)</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/tpro_buttons.png" alt="" width="361"><figcaption><p>Common buttons user for radio menu navigation (e.g. Jumper TPro)</p></figcaption></figure>
 
 The buttons below are commonly used to navigate EdgeTX. If your radio does not have these buttons, please consult the [manufacturer's documentation](https://drive.google.com/drive/folders/1HPqNbVZT9yzQsHoVKRPTM1YFeBXevYS9?usp=sharing) to see your radio's specific button configuration.
 

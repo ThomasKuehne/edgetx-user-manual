@@ -6,7 +6,7 @@ The **Outputs** screen of **Model Settings** is where final adjustments to the c
 A **Trim** is a temporary adjustment to a flight control normally done while in operation with a trim switch. A **Subtrim** is a semi-permanant adjustment to a flight control that is normally configured when setting up the model in the output settings.&#x20;
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/outputs.jpg" alt=""><figcaption><p>Outputs screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/color_model_output.png" alt=""><figcaption><p>Outputs screen</p></figcaption></figure>
 
 The output screen shows all the configured output channels. For each output line, it displays the values for the minimum and maximum limits, subtrim, center point, subtrim mode and channel monitor. The two options below are also available on the output page:
 
@@ -20,14 +20,14 @@ Selecting an output line will give you the following options:
 * **Copy Sticks to Subtrim** - Adds the current value of the stick deflection as the subtrim value.
 * **Copy Trims to Subtrim** - Adds the current trim value to the subtrim value.  The trim value is not changed.
 
-<figure><img src="../../../.gitbook/assets/outputs2.jpg" alt=""><figcaption><p>Outputs Configuration page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/color_model_outputs_edit.png" alt=""><figcaption><p>Outputs Configuration page</p></figcaption></figure>
 
 The output configuration screen has the following configuration options:
 
 * **Name** - Name for the Output up to 6 characters.
 * **Subtrim** - The subtrim value (max 100). It can also be set to a global variable by pressing the "GV" button and then selecting the desire global variable from the dropdown menu.
-* **Min** - Minimum output limit. Commonly used to prevent servo binding on models that use servos for the control surfaces.
-* **Max** - Maximum output limit. Commonly used to prevent servo binding on models that use servos for the control surfaces.
+* **Min** - Minimum output limit. Commonly used to prevent servo binding on models that use servos for the control surfaces. This line will be shown in **bold and highlighted** if the input for this channel is in the lower half of the range.&#x20;
+* **Max** - Maximum output limit. Commonly used to prevent servo binding on models that use servos for the control surfaces. This line will be shown in **bold and highlighted** if the input for this channel is in the upper half of the range.&#x20;
 * **Inverted** - Select this option if you want to invert the output value.
 * **Curve** - Specify the custom curve (in any) that you want to use for this output. See [Curves](../curves.md) for more information about custom defined curves.
 * **PPM Center** - Specify the pulse-width value for the center value of the output channel (between 1000 - 2000). Changing this will shift the entire output range, including upper and lower limits.

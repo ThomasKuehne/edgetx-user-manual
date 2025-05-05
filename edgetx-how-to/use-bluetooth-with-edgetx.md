@@ -13,13 +13,13 @@ The following Bluetooth options are **not** supported.
 
 ### Firmware
 
-To use Bluetooth, you will need a custom compiled version of EdgeTX that needs to be built with the **BLUETOOTH=YES** CMake flag. You can create customized versions of EdgeTX using the CloudBuild tab on the[ EdgeTX Buddy website](https://buddy.edgetx.org/).
+To use Bluetooth, if your radio does not come as standard with a Bluetooth module fitted (thus meaning the Bluetooth option should already be enabled in the firmware) you will need a custom compiled version of EdgeTX that needs to be built with the **BLUETOOTH=YES** CMake flag. You can create customized versions of EdgeTX using the CloudBuild tab on the[ EdgeTX Buddy website](https://buddy.edgetx.org/).
 
 Once the correct version of EdgeTX firmware is installed in your radio, the Bluetooth configuration options will be available on the **Hardware** page of **Radio** Settings.
 
 ### Hardware
 
-The only off-the-shelf bluetooth modules supported by EdgeTX are:&#x20;
+The only off-the-shelf Bluetooth modules supported by EdgeTX are:&#x20;
 
 [FrSky Bluetooth Module](https://de.aliexpress.com/item/4001192317700.html?gatewayAdapt=glo2deu)
 

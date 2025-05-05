@@ -85,7 +85,7 @@ If your radio has a 6 position switch (not to be confused with customisable swit
 
 #### Axis, Pots, and Switches Buttons
 
-<div><figure><img src="../../.gitbook/assets/Axis.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Pots.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Switches.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Axis.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/color_radio_hardware_pots.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Switches.png" alt=""><figcaption></figcaption></figure></div>
 
 Selecting one of the Axis, Pots, or Switches buttons will open the configuration screen.  On these screens, you will see all the physical radio controls pre-defined by EdgeTX.  Here you can add a 3 character label to the control as well as change the type of control as needed.  Addionally, controls listed under the Pots screen can also be configured to be inverted.
 

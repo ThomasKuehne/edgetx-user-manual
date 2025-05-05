@@ -21,9 +21,9 @@ Selecting a flight/drive mode from the overview screen will open the configurati
 
 **Switch:** The trigger to enable that flight/drive mode. It can be a switch, pot, telemetry, trim or logical switch.
 
-**Trims** - To configure the trims, select the trim that you want to configure (each column is one trim). Then scroll to select the flight/drive mode (**0-8**) that will provide the initial trim value and modifier (**=** or **+**). Select **--** to disable the trim.
+**Trims** - To configure the trims, select the trim that you want to configure (each column represents one trim, the name of which will be shown on the upper right of the screen when highlighted). Then scroll to select the flight/drive mode (**0-8**) that will provide the initial trim value and modifier (**=** or **+**). Select **--** to disable the trim.
 
-When **3P** is selected instead of the flight mode **(0-8)**, the trim will act as a 3 position momentary switch.
+When **3P** is selected instead of the flight mode **(0-8)**, the trim will act as a 3 position momentary switch (and will be in the middle switch position when no trim button is pressed).
 
 _**Modifier**_ - there are two possible value modifiers **=** and **+.** The **=** modifier uses the trim value directly from the selected flight/drive mode. The **+** modifier uses the trim value from the selected flight/drive mode and then adds the trim value from the flight/drive mode you are configuring.
 

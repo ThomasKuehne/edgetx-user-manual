@@ -12,17 +12,9 @@ Long pressing the **\[Roller]** or **\[Dial]** button will reset the Statistics 
 
 Pressing **\[PAGE>]** will take you to the **Debug** screens.
 
-<div>
+<div><figure><img src="../../.gitbook/assets/bwdebug.png" alt=""><figcaption><p>Debug screen 1</p></figcaption></figure> <figure><img src="../../.gitbook/assets/bwdebug2.png" alt=""><figcaption><p>Debug screen 1</p></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/bwdebug.png" alt=""><figcaption><p>Debug screen 1</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/bwdebug2.png" alt=""><figcaption><p>Debug screen 1</p></figcaption></figure>
-
-</div>
-
-The **Debug** screen provides data points used by the developers when debugging issues in the software. Most users will not find the information useful on this screen unless debugging issues with developers. The following debug information is provided.
+The **Debug** screen provides data points used by the developers when debugging issues in the software. Most users will not find the information useful on this screen unless debugging issues with developers. The following debug information is provided, and may change depending on handset capabilities and options configured.
 
 * **Free mem** - Current free radio memory in bytes.
 * **Lua scripts**&#x20;

@@ -1,6 +1,6 @@
 # Radio Setup
 
-<figure><img src="../../.gitbook/assets/bwRadioSetup.png" alt=""><figcaption><p>Radio Setup</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bw128_radio_setup_top.png" alt=""><figcaption><p>Radio Setup</p></figcaption></figure>
 
 The **Radio Setup** screen is where you configure basic settings for your radio. It contains the following options:
 
@@ -12,7 +12,7 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 
 
-<figure><img src="../../.gitbook/assets/bwRadioSetup2.png" alt=""><figcaption><p>Sound Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bw128_radio_setup_sound.png" alt=""><figcaption><p>Sound Settings</p></figcaption></figure>
 
 ### **Sound**&#x20;
 
@@ -34,6 +34,8 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 **Wav volume -** The volume for alerts and warnings and sounds that are played with the **Play track** special function
 
 **Bg volume -** The volume for background .wav files (music) that are played with the **BGMusic** special function
+
+**Startup sound -** When enabled (default setting), plays the "Welcome to EdgeTX" sound on radio startup. The relevant file is located in `/SOUNDS/??/SYSTEM/hello.wav` (where \`??\` represents the two letter directory for your sound pack).&#x20;
 
 <figure><img src="../../.gitbook/assets/bwRadioSetup3 (1).png" alt=""><figcaption><p>Variometer Settings</p></figcaption></figure>
 
@@ -66,21 +68,18 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 
 **Strength** - Strength of vibration
 
-<figure><img src="../../.gitbook/assets/bwRadioSetup5.png" alt=""><figcaption><p>Alarms Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bw128_alarms.png" alt=""><figcaption><p>Alarms Settings</p></figcaption></figure>
 
 ### Alarms
 
-**Battery Low** - Voltage to trigger low battery alarm.
+* **Battery Low** - Voltage to trigger low battery alarm.
+* **Inactivity** - Time to trigger inactivity warning.
+* **Memory low** - Enable/disable low memory warning.
+* **Sound Off** - An "alarms disabled" visual warning is displayed when the transmitter is turned on if the sound mode is set to quiet.
+* **RSSI Shutdown** - Checks if a receiver is still connected to the radio on attempted shutdown. Makes an audio and visual alert if one is detected.&#x20;
+* **Trainer Shutdown** - Checks if there is a trainer signal still active on attempted shutdown. Makes an audio and visual alert if one is detected.&#x20;
 
-**Inactivity** - Time to trigger inactivity warning.
-
-**Memory low** - Enable/disable low memory warning.
-
-**Sound Off** - An "alarms disabled" visual warning is displayed when the transmitter is turned on if the sound mode is set to quiet.
-
-**RSSI Shutdown** - Checks if a receiver is still connected to the radio on attempted shutdown. Makes a audio and visual alert if one is detected.&#x20;
-
-<figure><img src="../../.gitbook/assets/bwRadioSetup6.png" alt=""><figcaption><p>Backlight Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bw128_backlight.png" alt=""><figcaption><p>Backlight Settings</p></figcaption></figure>
 
 ### Backlight
 
@@ -96,29 +95,39 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 
 **Brightness** - Adjusts the screen backlight brightness level.
 
-**Alarm** - The backlight turns on when there are alarms or warnings.
-
-<figure><img src="../../.gitbook/assets/bwRadioSetup7.png" alt=""><figcaption></figcaption></figure>
-
 **Contrast** - For LCD displays, adjusts the screen contrast setting. For OLED displays. adjusts the OLED brightness level.
 
-**Splash Screen** - Duration to display the splash screen.
+**Alarm** - The backlight turns on when there are alarms or warnings.
 
-**Startup Sound** - Toggles whether to enable/disable startup sound.
+<figure><img src="../../.gitbook/assets/bw128_radio_setup_misc1.png" alt=""><figcaption><p>Misc Settings</p></figcaption></figure>
 
-**Power On delay** - The delay between when the power button is pushed and when the radio turns on. The options are: **0s, 1s, 2s, 3s**
+### Misc Settings
 
-**Pwr Off delay** - The delay between when the power button is pushed and when the radio shuts off. The options are: **0s, 1s, 2s, 3s, 4**s. _It is recommended to set at least a 1s delay in order to prevent the radio from being shut off in the case of an accidental button press._
+**Splash Screen** - Duration to display the splash screen. The options are **`---`** (no splash screen), **2s, 3s,  4s, 6s, 8s, 10s, 15s**
 
-**Owner ID** - Custom registration ID used only for users with ISRM modules.
+**Power On delay** - The delay between when the power button is pushed and when the radio turns on. The options are: **0s, 0.5s, 1s, 2s, 3s**
+
+**Power Off delay** - The delay between when the power button is pushed and when the radio shuts off. The options are: **0s, 0.5s, 1s, 2s, 3s, 4**s. _It is recommended to set at least a 1s delay in order to prevent the radio from being shut off in the case of an accidental button press._
+
+**Power Auto Off** - If enabled (not enabled by default), if the handset is left inactive, with no trainer or telemetry link active, it will automatically turn off after the configured duration. You can select from **0** (disabled) up to **255** (minutes).
+
+**Power ON/OFF Haptic** - If enabled (enabled by default), after the power on and power off delays have been served, there will be a haptic vibration to indicate the radio is powering on or off.&#x20;
+
+**Owner ID** (select transmitters) -  Custom registration ID used only for users with ISRM internal RF modules, or on transmitters that support FrSky ACCESS external modules. If not configured manually, a random value will be used.
+
+<figure><img src="../../.gitbook/assets/bw128_radio_setup_gps.png" alt=""><figcaption><p>GPS Settings</p></figcaption></figure>
+
+### **GPS**
 
 **Time Zone** - The time offset from UTC where the radio is being used. Can be configured in 15 minute increments.
-
-<figure><img src="../../.gitbook/assets/bwRadioSetup8.png" alt=""><figcaption></figcaption></figure>
 
 **Adjust RTC** - Adjust the transmitter's real-time clock to match the time determined by the GPS.
 
 **GPS Coords** - The GPS coordinate format that will be displayed.
+
+<figure><img src="../../.gitbook/assets/bw128_radio_setup_misc2.png" alt=""><figcaption></figcaption></figure>
+
+**Misc Settings**
 
 **Country code** - Used by some RF modules to ensure adherence to local regulatory RF requirements. Options are **America, Japan, Europe.**
 
@@ -126,17 +135,17 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 
 **Units** - Units of measure. Options are **metric** or **imperial**.
 
-**PPM Units** - Level of accuracy for PPM values are displyed. Options are **0.-** or **0.0**
+**PPM Units** - Level of accuracy for PPM values are displayed. Options are **0.-** , **0.0** or **us** (microseconds).
 
-**Play delay** (sw. mid pos) - The minimum time in milliseconds a switch must be in the middle position before a special function will get activated. This is used to prevent the middle position from being activated on a three-position switch when switching from low position to high position.
+**Play delay** (switch middle position) - The minimum time in milliseconds a switch must be in the middle position before a special function will get activated. This is used to prevent the middle position from being activated on a three-position switch when switching from low position to high position.
 
 <figure><img src="../../.gitbook/assets/bwRadioSetup9.png" alt=""><figcaption></figcaption></figure>
 
-**USB Mode** - Sets the default action when a USB cable is plugged into the USB data port and the radio is powered on.  Options are: **Ask**, **Joystick**, **Storage**, and **Serial**.
+**USB Mode** - Sets the default action when a USB cable is plugged into the USB data port and the radio is powered on.  Options are: **Ask** (ask on connect, the default), **Joyst** (Joystick) , **SDCard** (Storage), and **Serial**.
 
 **Def Chan Ord** - The default channel order for new models and the trainer screen.  The letters stand for: **A** = Aileron, **E** = Elevator, **T** = Throttle,  **R** = Rudder.  Changing this setting does not affect existing models. On Surface Radios, the letters stand for **S**=Steering, **T**=Throttle.
 
-**RotEnc Mode** (Rotary Encoder Mode) - Sets the direction of the rotary encode for the Roller. The options are:
+**RotEnc Mode** (Rotary Encoder Mode) (select radios)- Sets the direction of the rotary encode for the Roller. The options are:
 
 * **Normal** (default)
 * **Inverted** = Reverses the direction of the roller
@@ -150,11 +159,11 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 
 
 
-<figure><img src="../../.gitbook/assets/bwEnabledFeatures.png" alt=""><figcaption><p>Enabled Features</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bw128_radio_setup_enabled_features.png" alt=""><figcaption><p>Enabled Features</p></figcaption></figure>
 
 ### Enabled Features
 
-The **Enabled Features** section of Radio Setup allows you to configure the _**Global**_ _**settings**_ for which tabs are visible in the Radio Setup and Model Settings area of EdgeTX. The configuration setting for the active model will show to the right of the checkbox. The model configuration will override the global configuration.
+The **Enabled Features** section of Radio Setup allows you to configure the _**Global**_ _**settings**_ for which tabs are visible in the Radio Setup and Model Settings area of EdgeTX. The configuration setting for the active model will show to the right of the checkbox. The model configuration will override the global configuration (which will be indicated by the "Off" and "On" shown next to any model level overrides).&#x20;
 
 {% hint style="info" %}
 _**Note:**_ Turning off a tab only hides the tab and does not change the items already configured in that tab.

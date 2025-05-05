@@ -4,7 +4,7 @@
 
 The **SD Card** screen shows you the contents of your SD card, allows you to navigate the folders and interact with the files in the folders. All folders contain a README.txt file that describes what type of files belong in this folder. After selecting a file in one of the folders, you will be presented with some of the options below, depending on the file type that was selected:
 
-* **Assign bitmap** - Assigns the selected image file as the model image of the currently selected model.
+* **Assign bitmap** - Assigns the selected image file as the model image of the currently selected model (for 212x128 "widescreen" radios).
 * **Copy** - Copies the selected file.
 * **Delete** - Deletes the selected file.
 * **Execute** - Executes a Lua script. Used for files ending in **.lua**
@@ -64,8 +64,8 @@ This is where the screenshot image files that are configured in the [special fun
 
 This folder and its subfolders are where the Lua scripts get placed. It contains the following sub-folders by default. You can download additional Lua scripts from [https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts).
 
-* **Functions** - This folder is where the functions Lua scripts that can be activated by the [special function](../../color-radios/model-settings/special-functions.md) **Lua Script** must be placed. This folder is empty by default (except for the readme.txt file).  More information about function Lua scripts can be found here: [Function Scripts](https://luadoc.edgetx.org/part\_i\_-\_script\_type\_overview/function\_scripts).
-* **Mixes** - This folder is where the Lua mixer scripts shall be placed. This folder is empty by default (except for the readme.txt file). More information about Mixer Lua scripts can be found here: [Custom Mixer Scripts](https://luadoc.edgetx.org/part\_i\_-\_script\_type\_overview/mix)
+* **Functions** - This folder is where the functions Lua scripts that can be activated by the [special function](../../color-radios/model-settings/special-functions.md) **Lua Script** must be placed. This folder is empty by default (except for the readme.txt file).  More information about function Lua scripts can be found here: [Function Scripts](https://luadoc.edgetx.org/part_i_-_script_type_overview/function_scripts).
+* **Mixes** - This folder is where the Lua mixer scripts shall be placed. This folder is empty by default (except for the readme.txt file). More information about Mixer Lua scripts can be found here: [Custom Mixer Scripts](https://luadoc.edgetx.org/part_i_-_script_type_overview/mix)
 * **RGBLED** - This folder is where Lua scripts that control the RGB Leds (if hardware available) are stored.
 * **Tools** - Contains the Lua scripts that are available in the [Tools](../../color-radios/radio-settings/tools.md) screen.&#x20;
 * **Wizards** - Contains the Wizard Lua scripts that are available in the [Tools](../../color-radios/radio-settings/tools.md) screen.&#x20;

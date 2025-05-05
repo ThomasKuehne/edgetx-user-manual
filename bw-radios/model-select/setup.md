@@ -1,6 +1,6 @@
 # Setup
 
-<figure><img src="../../.gitbook/assets/bwsetup.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bw128_model_setup.png" alt=""><figcaption></figcaption></figure>
 
 The **Setup** screen is where you start to configure your model. It contains the following settings:
 
@@ -56,13 +56,13 @@ If set to **Remain**, the counter will function like a countdown timer - countin
 * **Voice** - The radio will count down by second starting at the time designated.
 * **Haptic** - The radio will vibrate every second starting at the time designated.
 
-<figure><img src="../../.gitbook/assets/Bwsetup1.png" alt=""><figcaption><p>Function Switches</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bw128_customisable_switches.png" alt=""><figcaption><p>Customizable Switches</p></figcaption></figure>
 
-### **Function Switches**&#x20;
+### **Customizable Switches**&#x20;
 
-The functions switches are a type of multiposition switch (on select transmitters) that are managed directly by EdgeTX. Physically, they look like a regular 6-pos switch but are much more flexible.
+The customizable switches are a type of multi-position switch (on select transmitters) that are managed directly by EdgeTX. Physically, they look like a regular 6-pos switch but are much more flexible.
 
-Unlike other switches managed at the radio level, function switches are defined per model and configured in the model setup page. They contain the following configuration options:
+Unlike other switches managed at the radio level, customizable switches are defined per model and configured in the model setup page. They contain the following configuration options:
 
 **Switch Type**
 
@@ -72,15 +72,15 @@ Unlike other switches managed at the radio level, function switches are defined 
 
 **Switch group**
 
-A traditional 6POS is a group of 6 switches that work together, where only one can be active at a time. Function switches expand that concept and let you choose how the switches should be grouped.
+A traditional 6POS is a group of 6 switches that work together, where only one can be active at a time. Customizable switches expand that concept and let you choose how the switches should be grouped.
 
-'**-**' defines a function switch with no group. Pushing it will only affect this switch.
+'**-**' defines a customizable switch with no group. Pushing it will only affect this switch.
 
 **'1', '2' or '3'** define groups. All the switches in a group act together, **where only one (the last pushed) can be active.**
 
 **Always on groups**&#x20;
 
-Selecting this check box makes the assigned group act like a traditional 6-position switch where one button from the group must be on at all times.
+Selecting this check box makes the assigned group act a bit like a traditional 6-position switch where one button (and only one) from the group must be on at all times.
 
 **Startup Position**
 
@@ -91,7 +91,7 @@ Selecting this check box makes the assigned group act like a traditional 6-posit
 * **=** Switch is set to the same state it was in when the model was last used (it keeps old state).
 
 {% hint style="info" %}
-Unlike hardware 6-POS implementation (Horus, TX16S,...), software managed switches can not be used as an analog source, they are individual switches with either ↑ or ↓ position. The behavior of previous 6P source can be achieved using a combination of mixer lines
+To use customisable switches like a traditional hardware 6-POS implementation (Horus, TX16S,...), leave the customizable switches at the default settings (all switches set to 2POS, Group 1). Configure Group 1 to be "Always On" and SW1 to be selected on model/radio start. You can then use select GR1 on the input or mixes page, to get just like the prior 6-POS behaviour.&#x20;
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/setup2.png" alt=""><figcaption><p>Trims settings</p></figcaption></figure>
@@ -218,7 +218,7 @@ The **Enabled Features** section allows you to configure which pages are visible
 {% hint style="info" %}
 _**Note:**_ Turning off a tab only hides the tab and does not change the items already configured in that tab.
 
-**EXCEPTION:** Turning off the Global / Special Functions tab will disable configured global / special functions for that model.
+**EXCEPTION:** Turning off the Global / Special Functions tab _**will**_ disable configured global / special functions for that model.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/bwjoy4.png" alt=""><figcaption><p>USB Joystick advanced mode settings</p></figcaption></figure>

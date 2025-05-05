@@ -1,6 +1,6 @@
 # Pre-start Checks
 
-<figure><img src="../../../.gitbook/assets/prestart checks.png" alt=""><figcaption><p>Pre-start Checks page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/color_model_pre-start_checks.png" alt=""><figcaption><p>Pre-start Checks page</p></figcaption></figure>
 
 Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on the checks that are configured on this page. If any of the checks are failed, EdgeTX will give the user an audio and visual warning that must be acknowledged before using the model. The following preflight checks are configurable:
 
@@ -19,5 +19,3 @@ Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on t
 * **OFF** - Pot and slider positions are not checked.
 * **ON** - Positions are checked against manually configured pot and slider positions that are set to active (yellow). To manually set the check position, select ON from the drop-down menu, put the pots and sliders into the desired position, and activate them by selecting them (yellow).
 * **AUTO** - Positions are checked for activated pots and sliders and compared to the last automatically saved position before the radio was turned off or the model was changed.
-
-**Center Beep** - Allows you to turn on / off the center beep function for the individual sticks, pots, and sliders by selecting them (yellow).&#x20;

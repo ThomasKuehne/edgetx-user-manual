@@ -28,12 +28,13 @@ Double-tapping on a non-active model (unhighlighted) will give you the following
 
 To create a new model, select the **New Model** button in the upper right corner. You will then be presented with the following options:&#x20;
 
-<figure><img src="../.gitbook/assets/newmodel.png" alt=""><figcaption><p>New model options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/new_model_options.png" alt=""><figcaption><p>New model options</p></figcaption></figure>
 
 * **Blank Model** - This will create a blank model with only the default options configured.
-* **PERSONAL** - This option will allow you to select one of your saved model templates and then create a copy of it as a new model.
+* **Wizard** - This will launch the new model wizard and create the model as configured in the wizard.
+* **Personal** - This option will allow you to select one of your saved model templates and then create a copy of it as a new model.
 * **SoarETX** - This will display pre-configured model templates for radio-controlled model sailplanes.
-* **WIZARD** - This will launch the new model wizard and create the model as configured in the wizard.
+* **SoarETX\_v2** - This will display the more updated v2 of the pre-configured model templates for radio-controlled model sailplanes.
 
 ### Model Labels
 
