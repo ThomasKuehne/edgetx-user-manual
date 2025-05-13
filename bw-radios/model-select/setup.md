@@ -228,7 +228,9 @@ _**Note:**_ Turning off a tab only hides the tab and does not change the items a
 The **USB Joystick** has two possible modes, **Classic** and **Advanced**.&#x20;
 
 {% hint style="info" %}
-If using the radio as a USB Joysitck, both internal and external RF modules should be turned off. When configured as such, the mixer will run at 1000Hz when in Joystick mode (which is needed for F.Sim competitors). Additinally, it also displays mixer run time in statistic/debug screen. This will result in increased performance when connected to a computer via USB.&#x20;
+If using the radio as a USB Joystick, both internal and external RF modules should be turned off. When configured as such, the mixer will run at 1000Hz when in Joystick mode (which is needed for F.Sim competitors). Additionally, it also displays mixer run time in statistic/debug screen. This will result in increased performance when connected to a computer via USB. \
+\
+The advanced joystick mode is not available for black-and-white display radios with less than 1 MB of flash memory due to this feature not fitting into the available memory footprint.
 {% endhint %}
 
 In **Classic mode**, the radio's configured output channels will be sent to the target device in numerical order and mapped to the device's preconfigured USB controller axes and buttons. Below is the default channel mapping for Microsoft Windows.
