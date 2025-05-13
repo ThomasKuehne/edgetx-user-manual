@@ -7,6 +7,10 @@
 3. To ease switching between Advanced and Classic mode try using **channels 1 - 8 for axis** and **channels 9 - 32 for buttons**.
 4. After **changing the joystick** configuration you likely have to disconnect and then reconnect the USB cable. Otherwise systems might still use the old joystick description to read the new data.
 
+{% hint style="info" %}
+The advanced joystick mode is not available for black-and-white display radios with less than 1 MB of flash memory due to this feature not fitting in the available memory footprint.
+{% endhint %}
+
 ### Analog Axis
 
 1. Most modern applications use the **USB HID ID** to identify the meaning of an axis.
@@ -98,7 +102,7 @@ Sim Dpad emulates a **directional pad** also known as **hat switch** or point of
 3. **Duplicate buttons** (_e.g. button 1, button 1_) are not supported. The button with the higher channel number is used.
 4. **Buttons as axis**: Some applications need analog button information. Use a mixer to forward the digital button state to an analog axis.
 5. **Ghost buttons**: For Joysticks and Gamepads the required minimum amount of buttons is automatically created. Similarly if only button 15 is configured the missing buttons 0 - 14 are automatically created. These buttons have no input and are always off.
-6. **Android** generally supports buttons 0 to 14 with the same mapping as Linux. Support for buttons in bold is [mandatory](https://source.android.com/docs/compatibility/14/android-14-cdd#7261\_button\_mappings) for all Android devices.
+6. **Android** generally supports buttons 0 to 14 with the same mapping as Linux. Support for buttons in bold is [mandatory](https://source.android.com/docs/compatibility/14/android-14-cdd#7261_button_mappings) for all Android devices.
 7. **Widows** generally supports buttons 0 to 9 with the same mapping as Xbox.
 
 | EdgeTX    | **Android** / Linux         | Dualsense | **Windows** / XBox | USB HID ID |
