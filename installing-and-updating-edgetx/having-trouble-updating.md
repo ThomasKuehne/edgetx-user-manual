@@ -31,3 +31,14 @@ If you're here reading this, you probably got stuck with something either while 
 
 3. If you are really stuck, you can follow this guide on [how to unbrick your radio](https://github.com/EdgeTX/edgetx/wiki/Unbrick-your-radio).&#x20;
 
+
+#### Flashing is stuck near the end
+
+It is a random event that already existed in OpenTx. It's hard to debug and fix, but easy to workaround:
+
+1. Disconnect the battery (yes, it's safe in _this_ case)
+2. Wait for 10 seconds or so
+3. Connect the battery again
+4. Start the radio in the bootloader mode: T1 + T4 to each other, hold, press the Power button, release everything once you see the bootloader menu
+5. Start flashing again
+
