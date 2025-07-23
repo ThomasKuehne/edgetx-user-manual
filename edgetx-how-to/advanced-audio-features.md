@@ -6,7 +6,7 @@ description: Model Independent and Model Dependent audio!
 
 ## Model Independent
 
-These are the sounds that are not special to any specific model, and are located in `/SOUNDS/language` and `/SOUNDS/language/SYSTEM` on your radio's SD card/on-board storage when correctly configured.&#x20;
+These are sounds that are not special to any specific model, and are located in `/SOUNDS/language` and `/SOUNDS/language/SYSTEM` on your radio's SD card/on-board storage when correctly configured.&#x20;
 
 The files in `/SOUNDS/language/SYSTEM` are automatically played by the radio in response to specific events, such as turning the radio on, telemetry being lost, switches being in the wrong position, etc.&#x20;
 
@@ -14,7 +14,7 @@ You can also add `Play Track` Global Functions that will play in response to wha
 
 ## Model Dependent
 
-These are the sounds that are specific to a  given model, and are located in `/SOUNDS/language` and `/SOUNDS/language/model_name` on your radio's SD card/on-board storage when correctly configured.\
+These are sounds that are specific to a  given model, and are located in `/SOUNDS/language` and `/SOUNDS/language/model_name` on your radio's SD card/on-board storage when correctly configured.\
 \
 The files in `/SOUNDS/language` are available for use with Play Track Special Functions, and will play in response to whatever trigger condition you configure.
 
@@ -26,13 +26,13 @@ Then, just create/copy audio files (of the correct format!) for any of the follo
 
 ### Model Load
 
-Will be played after the switch checks are completed when turning the radio on or when switching to the configured model.&#x20;
+Will be played after the startup switch checks are completed when turning the radio on or when switching to the configured model.&#x20;
 
 Filename: `name.wav`&#x20;
 
 ### Switches
 
-Will be played on a change of position of the switch.&#x20;
+Played on change of switch position.
 
 Filename structure: `switchID-position.wav`
 
@@ -40,19 +40,18 @@ Filename structure: `switchID-position.wav`
 * `SA-mid.wav` (if position present)
 * `SA-down.wav`
 
-### Multipos / Stepped Switches
+### Multi-position / Stepped Switches
 
-Will be played on a change of position of the switch.&#x20;
+Played on change of switch position.
 
-Filename structure (hyphens only for clarity): `P-switchNumber-position.wav`
+Filename structure (hyphens added for clarity): `P-switchNumber-position.wav`
 
 * `P11.wav`  (Pot 1, position 1)
 * `P16.wav`  (Pot 1, position 6)
-* `P24.wav`  (Pot 2, position 4)
 
 ### Logical Switches
 
-Will be played when the logical switch changes state.
+Played when the logical switch changes state.
 
 Filename structure: `switchID-condition.wav`
 
@@ -61,7 +60,7 @@ Filename structure: `switchID-condition.wav`
 
 ### Flight Modes
 
-Will be played on entering or exiting flight mode.&#x20;
+Played on entering or exiting flight mode.&#x20;
 
 Filename structure: `modeName-condition.wav` (Note: No spaces in the flight mode name)
 
