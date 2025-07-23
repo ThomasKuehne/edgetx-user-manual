@@ -94,6 +94,7 @@
 * [Disable Touchscreen](edgetx-how-to/disable-touchscreen.md)
 * [Use Trims to Adjust Global Variables](edgetx-how-to/use-trims-as-switches.md)
 * [Configure a low battery alert](edgetx-how-to/useful-logical-switches-and-special-functions.md)
+* [Advanced Audio Features](edgetx-how-to/advanced-audio-features.md)
 
 ## More
 
