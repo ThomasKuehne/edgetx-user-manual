@@ -26,7 +26,7 @@ Then, just create/copy audio files (of the correct format!) for any of the follo
 
 ### Model Load
 
-Will be played after the switch checks after turning the radio on, or after changed to a new model.&#x20;
+Will be played after the switch checks are completed when turning the radio on or when switching to the configured model.&#x20;
 
 Filename: `name.wav`&#x20;
 
