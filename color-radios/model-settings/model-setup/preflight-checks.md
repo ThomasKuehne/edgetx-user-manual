@@ -12,7 +12,7 @@ Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on t
 
 **Custom Position?** - When this option is selected, a number box will be shown that can be configured with a user-defined value for the throttle state check. &#x20;
 
-**Switches** - The section displays all the switches that are configured on the radio and allows you to select which position is the correct position for the switch state check. Selecting the switch will cycle through the available switch positions or turn the check off for the switch completely. Yellow switches have the switch position check activated. White switches e de-activated.
+**Switches** - The section displays all the switches that are configured on the radio and allows you to select which position is the correct position for the switch state check. Selecting the switch will cycle through the available switch positions or turn the check off for the switch completely. Yellow switches have the switch position check activated. White switches are de-activated. A long press (or touch) of **\[Enter]** while this section is highlighted will set all the switch positions to the currently configured physical positions of the switches.
 
 **Pots & Sliders**- When activated, this option checks the position of the pots & sliders. There are three options - OFF, ON and AUTO. When ON or AUTO is selected from the drop-down menu, buttons for the available pots and sliders will appear.&#x20;
 

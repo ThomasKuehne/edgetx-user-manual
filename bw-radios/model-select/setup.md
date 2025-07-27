@@ -152,7 +152,7 @@ Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on t
 
 **Pos. %** - minimum value of the throttle for the throttle warning when **Cust-Pos** is enabled.
 
-**S-Warning** - The section displays all the switches that are configured on the radio and allows you to select which position is the correct position for the switch state check. Selecting the switch will cycle through the available switch positions or turn the check off for the switch completely.
+**S-Warning** - The section displays all the switches that are configured on the radio and allows you to select which position is the correct position for the switch state check. Selecting the switch will cycle through the available switch positions or turn the check off for the switch completely. A long press of **\[Enter]** while this section is highlighted will set all the switch positions to the currently configured physical positions of the switches.
 
 **Pot warn.** - When activated, this option checks the position of the pots & sliders. There are three options - **OFF**, **ON** and **Auto**. When **ON** or **AUTO** is selected, buttons for the available pots and sliders will appear. To enable the pot warning for an individual pot, select the pot with the **\[roller]** or **\[dial]** and click the button to highlight it. Highlighted pots are enabled.
 
