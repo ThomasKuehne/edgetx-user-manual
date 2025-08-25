@@ -129,6 +129,12 @@ Note: To access the DFU button on v1, remove the antenna. For v2, use a toothpic
 
 **DFU**: Turn off the radio transmitter. Plug in the USB cable to the USB port on the top of the radio.
 
+### RadioMaster  TX15 (EdgeTX 3.0)
+
+**Bootloader**: Turn off the radio transmitter. Pull both horizontal trim switches together and press the power button.
+
+**DFU**: Turn off the radio transmitter. Plug in the USB cable to the USB port on the top of the radio (power button LED should light up). Momentarily press the SYSTEM (SYS) button for the TX15 to enter the DFU mode.&#x20;
+
 ### RadioMaster (All others - Boxer, T12, Zorro, TX16S)
 
 **Bootloader**: Turn off the radio transmitter. Pull both horizontal trim switches together and press the power button.
