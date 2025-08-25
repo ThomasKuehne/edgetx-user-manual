@@ -16,7 +16,7 @@ Not all radios go into Bootloader or DFU mode the same way.  Below you will find
 Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functional, which prevented DFU mode from being enabled. However, in the current version of the radio, the DFU button has been fixed and is now working correctly.
 {% endhint %}
 
-### FlySky NV14 / EL18
+### Flysky NV14 / EL18
 
 
 
@@ -32,7 +32,13 @@ Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functiona
 
 **DFU:** TODO
 
-### FlySky PL18 / PL18 EV
+### Flysky PA01
+
+**Bootloader:** TODO
+
+**DFU:** TODO
+
+### Flysky PL18 / PL18 EV
 
 
 
