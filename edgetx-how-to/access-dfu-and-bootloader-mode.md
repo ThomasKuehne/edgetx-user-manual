@@ -34,9 +34,11 @@ Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functiona
 
 ### Flysky PA01
 
-**Bootloader:** TODO
+<figure><img src="../.gitbook/assets/pa01_dfu.png" alt=""><figcaption></figcaption></figure>
 
-**DFU:** TODO
+**Bootloader:** Turn off the radio transmitter. Pull both horizontal trims (T1 and T4) inwards, and press the power button.&#x20;
+
+**DFU:** Turn off the radio transmitter. Turn the radio over so you are looking at the back of it. Remove the left side battery cover. Use a non-conductive (i.e. plastic) object to press and hold the DFU button down, and plug in the USB cable. Release the DFU button. The cooling fan will be running at full speed if you have done this correctly.&#x20;
 
 ### Flysky PL18 / PL18 EV
 
